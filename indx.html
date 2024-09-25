@@ -1,30 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div id="contenedor" class="container-fluix">
-<h1 class="p-5">Document</h1>
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Columna 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tortor ac neque consectetur semper. Nulla facilisi. Sed fermentum, felis nec vulputate faucibus, neque justo semper turpis, vel pharetra ex dolor non urna. Sed non ipsum et turpis aliquet ultricies. Donec
-    </div>
-    <div class="col-md-6">
-        <h2>Columna 2</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tortor ac neque consectetur semper. Nulla
-            facilisi. Sed fermentum, felis nec vulputate faucibus, neque justo semper turpis, vel pharetra ex dolor non
-            urna. Sed non ipsum et turpis aliquet ultricies. Donec
-    </div>
+    <div id="contenedor" class="container-md mt-5">
+        <div class="row container-fluid p-3 m-auto">
+            <div class="col-md-6 bg-white">
+                <h3 class="pt-3">MEJORA TU PIZZA</h3>
+                <p> Puedes elegir 3 ingredientes gratis. Cada ingrediente adicional cuesta $800 pesos cada uno.</p>
+                <p> Ingredientes disponibles para agregar a su PIZZA.</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecke">
+                    <label class="form-check-label" for="flexCheckChecke">
+                        Carne
+                    </label>
+                </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Pollo
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Tocino
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Mozzarella
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Champiñón
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Cebolla
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Piña
+                    </label>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Pimentón
+                    </label>
+                    </div>
+                    <p class="pt-5"> Los ingredientes seleccionados son.</p>
+                    <p class="pt-5"> Los ingredientes extras seleccionados son:</p>
+            </div>
+            <div class="col-md-6 bg-white">
+                <h3 class="pt-3">RESUMEN DEL PEDIDO</h3>
+                <p>Pizza XL                           <strong class="m-xl-5 p-lg-5">$15.000</strong></p>
+                <p class=" pt-3">Ingredientes Extras</p>
+                <p class="pt-3">Propina</p>
+                <div class="input-group border rounded-pill">
+                    <input type="number" class="form-control-sm pt-3" placeholder="Ingresa Propina" aria-label="Propina">
+                    <button type="button" class="btn btn-dark btn-sm ">Enviar Pedido con Propina</button>
+                </div>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
