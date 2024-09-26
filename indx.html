@@ -22,67 +22,73 @@
                 <p> Puedes elegir 3 ingredientes gratis. Cada ingrediente adicional cuesta $800 pesos cada uno.</p>
                 <p> Ingredientes disponibles para agregar a su PIZZA.</p>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecke">
+                    <input class="form-check-input" type="checkbox" value="Carne" id="flexCheckChecke">
                     <label class="form-check-label" for="flexCheckChecke">
                         Carne
                     </label>
                 </div>
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Pollo" id="flexCheckChecked2">
+                    <label class="form-check-label" for="flexCheckChecked2">
                         Pollo
                     </label>
-                    </div>
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Tocino" id="flexCheckChecked3">
+                    <label class="form-check-label" for="flexCheckChecked3">
                         Tocino
                     </label>
-                    </div>
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label" for="flexCheckChecked4">
+                        <input class="form-check-input" type="checkbox" value="Mozzarella" id="flexCheckChecked4">
                         Mozzarella
                     </label>
-                    </div>
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Champiñón" id="flexCheckChecked5">
+                    <label class="form-check-label" for="flexCheckChecked5">
                         Champiñón
                     </label>
-                    </div>
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Cebolla" id="flexCheckChecked6">
+                    <label class="form-check-label" for="flexCheckChecked6">
                         Cebolla
                     </label>
-                    </div>
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Piña" id="flexCheckChecked7">
+                    <label class="form-check-label" for="flexCheckChecked7">
                         Piña
                     </label>
-                    </div>
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Pimentón" id="flexCheckChecked8">
+                    <label class="form-check-label" for="flexCheckChecked8">
                         Pimentón
                     </label>
-                    </div>
-                    <p class="pt-5"> Los ingredientes seleccionados son.</p>
-                    <p class="pt-5"> Los ingredientes extras seleccionados son:</p>
-            </div>
-            <div class="col-md-6 bg-white">
-                <h3 class="pt-3">RESUMEN DEL PEDIDO</h3>
-                <p>Pizza XL                           <strong class="m-xl-5 p-lg-5">$15.000</strong></p>
-                <p class=" pt-3">Ingredientes Extras</p>
-                <p class="pt-3">Propina</p>
-                <div class="input-group border rounded-pill">
-                    <input type="number" class="form-control-sm pt-3" placeholder="Ingresa Propina" aria-label="Propina">
-                    <button type="button" class="btn btn-dark btn-sm ">Enviar Pedido con Propina</button>
                 </div>
+                <p class="pt-5"> Los ingredientes seleccionados son.</p>
+                <p id="seleccion">
+                </p>
+                <p class="pt-5"> Los ingredientes <strong>extras</strong> seleccionados son:</p>
+                <p id="adicionales">
+                </p> 
+            </div>
+        
+            <div class="col-md-6 bg-white">
+            <h3 class="pt-3">RESUMEN DEL PEDIDO</h3>
+            <p>Pizza XL <strong class="m-xl-5 p-lg-5">$15.000</strong></p>
+            <p class=" pt-3">Ingredientes extras:<span class="fw-bold m-lg-5" id="extras"></span></p>
+            <p class="pt-3">Propina<span class="p-lg-5 m-xl-5 fw-bold"><span class="fw-bold m-lg-5"id="spanPropina"></span></p>
+            <div class="input-grour" class="form-control pt-3" placeholder="Ingresa Propina" aria-label="Propina">
+                <input type="number" id="propina" class="form-control-sm pt-3" placeholder="Ingresa Propina" aria-label="Propina">
+                <button type="button" id="btn" class="btn btn-dark btn-sm ">Enviar Pedido con Propina</button>
             </div>
         </div>
-    </div>    
+    </div>
+    </div>
 </body>
+<script src="index.js"></script>
 </html>
