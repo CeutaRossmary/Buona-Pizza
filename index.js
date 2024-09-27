@@ -5,13 +5,14 @@ const extras = document.getElementById("extras");
 const spanPropiana = document.getElementById("spanPropina");
 const btn = document.getElementById("btn");
 
- var sumar = 0;
+
 checks.forEach((box) => {
   box.addEventListener("change", () => {
     extras.innerHTML = "";
     seleccion.innerHTML = "";
     adicionales.innerHTML = "";
     let count = 0;
+    sumar=0
     checks.forEach((e) => {
       if (e.checked) {
         count++;
